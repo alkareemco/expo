@@ -1,0 +1,12 @@
+{
+  "name": "expo-web-static-deploy",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy": "echo 'Static web export detected: skip build step (no Expo source in this repo)'",
+    "deploy": "gh-pages --branch gh-pages -d . --dotfiles"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
